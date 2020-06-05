@@ -41,6 +41,11 @@
 				{ name: 'Caja 7', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box7' } },
 				{ name: 'Caja 8', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box8' } },
 
+				{ name: 'Énfasis naranja', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
+				{ name: 'Énfasis morado', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
+				{ name: 'Énfasis 3', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
+				{ name: 'Énfasis 4', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
+
 				{ name: 'Icono Draw', element: 'span', attributes: { 'class': 'icon icon-draw' } },
 				{ name: 'Icono Write', element: 'span', attributes: { 'class': 'icon icon-write' } },
 				{ name: 'Icono Speaking', element: 'span', attributes: { 'class': 'icon icon-speaking' } },
