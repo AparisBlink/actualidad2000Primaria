@@ -585,6 +585,15 @@
 	margin-top: 15px;
 }
 
+/*ÉNFASIS*/
+bck-enfasis-1 {
+	color: #DD503C;
+}
+bck-enfasis-2 {
+	color: #6F2670;
+}
+
+
 /*TABLA POR DEFECTO*/
 
 .content table:not(.rf-tablegrid) td,
