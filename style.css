@@ -424,6 +424,11 @@
 	line-height: 1.1rem;
 }
 
+.content .bck-ol1 li,
+.cke_contents .bck-ol1 li {
+	font-weight: 700;
+}
+
 .content ol li:before,
 .cke_contents ol li:before {
     content: counter(bck-li-counter)".";
@@ -464,6 +469,11 @@
 .cke_contents .bck-ol2 li:before {
 	content: counter(bck-li-counter, lower-alpha)".";
     color: #005592;
+    box-shadow: none;
+    border: 0;
+    font-size: 20px;
+    line-height: 1;
+    vertical-align: sub;
 }
 
 /*LISTA ORDENADA 3*/
