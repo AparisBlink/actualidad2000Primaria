@@ -63,9 +63,22 @@
 	}
 
 	.content_type_clase_Actualidad2000PRIM #actividad .content .header .title {
-		margin: -40px 0 20px;
-		background: #10A0C6;
-		padding: 20px 97px;
+		padding: 45px 30px;
+		-moz-border-bottom-right-radius: 30px;
+		border-bottom-right-radius: 30px;
+		-moz-border-bottom-left-radius: 30px;
+		border-bottom-left-radius: 30px;
+		-webkit-box-shadow: 0px 12px 6px #00000030;
+		-moz-box-shadow: 0px 12px 6px #00000030;
+		box-shadow: 0px 12px 6px #00000030;
+		background: rgba(150,15,38,1);
+		background: -moz-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(150,15,38,1)), color-stop(100%, rgba(186,30,74,1)));
+		background: -webkit-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%);
+		background: -o-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%);
+		background: -ms-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%);
+		background: linear-gradient(to right, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%);
+	}
 	}
 
 	.content_type_clase_Actualidad2000PRIM #actividad .content .slide-concatenate .header .title {
@@ -79,17 +92,11 @@
 		margin: 0;
 		padding: 0;
 		color: #fff;
-		font-size: 1.4rem;
+		font-size: 24px;
 		font-weight: 700;
-		text-align: right;
+		text-align: left;
 	}
 
-	.content_type_clase_Actualidad2000PRIM #actividad .content .header .title h3 span {
-		float: left;
-		font-size: 1.8rem;
-		font-weight: 900;
-		line-height: 1.1rem;
-	}
 
 	.content_type_clase_Actualidad2000PRIM #actividad .slide_content_type_1 .pregunta .texto_curso,
 	.content_type_clase_Actualidad2000PRIM #actividad .texto_curso,
