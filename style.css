@@ -692,3 +692,31 @@ body.content_type_clase_Actualidad2000PRIM #actividad .content .fillblanks-dragg
 	height: 100px !important;
 	padding: 0;
 }
+
+/*Plantilla TEST*/
+#actividad .workspace.test .respuestas li {
+    width: auto;
+    display: block;
+    vertical-align: top;
+    box-shadow: 3px 3px 7px 0px #00000030;
+    border-radius: 9px;
+    margin: 20px 0;
+    -moz-transition: background 0.3s ease-in-out;
+    -webkit-transition: background 0.3s ease-in-out;
+	transition: background 0.3s ease-in-out;
+	padding: 0;
+}
+#actividad .workspace.test .respuestas li:hover {
+    background: #e5e5e5;
+}
+.checkbox-option label.filter-label:before,
+ .slides_averages #cont_checkSelfCorrect label:before,
+  .slides_averages #cont_checkEvaluation label:before,
+   .radio-option label.filter-label:before {
+	   filter: grayscale(1);
+}
+.checkbox-option input.filter-checkbox[type="checkbox"]+label.filter-label,
+    .radio-option input.filter-radio[type="radio"]+label.filter-label {
+		display: block;
+		padding: 10px 25px;
+}
