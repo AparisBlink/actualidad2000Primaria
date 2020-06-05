@@ -417,7 +417,7 @@
 .content ol li,
 .cke_contents ol li {
 	list-style-type: none;
-	padding-left: 28px;
+	padding-left: 0px;
 	margin-bottom: 16px;
 	counter-increment: bck-li-counter;
 	position: relative;
