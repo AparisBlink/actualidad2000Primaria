@@ -560,6 +560,19 @@
 	font-weight: 700;
 }
 
+/*Lista abc morada*/
+.content .bck-ol7 li:before,
+.cke_contents .bck-ol7 li:before {
+	content: counter(bck-li-counter, lower-alpha)".";
+    color: #652584;
+    box-shadow: none;
+    border: 0;
+    font-size: 20px;
+    line-height: 1;
+	vertical-align: baseline;
+	margin-left: -8px;
+	text-align: right;
+}
 
 /*LISTA DESORDENADA POR DEFECTO*/
 
