@@ -574,6 +574,38 @@
 	text-align: right;
 }
 
+/*Lista 123 azul claro*/
+.content .bck-ol8 li:before,
+ .cke_contents .bck-ol8 li:before {
+    content: counter(bck-li-counter)".";
+    background: none;
+    font-size: 22px;
+    color: #00ADEE;
+    position: relative;
+	width: 30px;
+    height: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+.content .bck-ol6 li,
+.cke_contents .bck-ol6 li {
+	font-weight: 700;
+}
+
+/*Lista abc verde*/
+.content .bck-ol9 li:before,
+.cke_contents .bck-ol9 li:before {
+	content: counter(bck-li-counter, lower-alpha)".";
+    color: #00A651;
+    box-shadow: none;
+    border: 0;
+    font-size: 20px;
+    line-height: 1;
+	vertical-align: baseline;
+	margin-left: -8px;
+	text-align: right;
+}
+
 /*LISTA DESORDENADA POR DEFECTO*/
 
 .texto_curso ul li:before, .workspace ul li ul li:before, .cke_contents ul li:before {
