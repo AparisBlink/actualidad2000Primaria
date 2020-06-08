@@ -723,9 +723,16 @@
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 2px solid #10A0C6;
-    padding-top: 10px;
+    border: 0;
+    -webkit-box-shadow: 1px 4px 10px #0000003d;
+    -moz-box-shadow: 1px 4px 10px #0000003d;
+    box-shadow: 1px 4px 10px #0000003d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding-top: 10px;
 }
+
 
 .fillblanks-draggable-wrapper .response {
     border: 0px solid #d8d8d8;
