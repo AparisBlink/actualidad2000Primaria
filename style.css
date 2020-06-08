@@ -283,7 +283,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 
 /* Navbar */
 	.navbar-bottom {
-		background: #132E4C;
+		background: #999999;
 		padding-left: 100px;
 		padding-right: 100px;
 	}
@@ -368,11 +368,11 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 		text-indent: initial;
 	}
 	#bottom-navigator li:hover {
-		background: rgb(142, 206, 224);
+		background: #c7c7c7;
 		color: transparent;
 	}
 	#bottom-navigator li.active {
-		background: #007FA3;
+		background: #646464;
 		color: transparent;
 	}
 	#bottom-navigator.show_left:before {
