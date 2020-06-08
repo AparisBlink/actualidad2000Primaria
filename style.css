@@ -526,6 +526,7 @@
 .cke_contents .bck-ol4 li {
 	font-weight: 700;
 }
+
 /*Lista abc azul claro*/
 .content .bck-ol5 li:before,
 .cke_contents .bck-ol5 li:before {
@@ -538,6 +539,24 @@
 	vertical-align: baseline;
 	margin-left: -8px;
 	text-align: right;
+}
+
+/*Lista 123 azul*/
+.content .bck-ol6 li:before,
+ .cke_contents .bck-ol6 li:before {
+    content: counter(bck-li-counter)".";
+    background: none;
+    font-size: 22px;
+    color: #006DAE;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    font-weight: 700;
+}
+.content .bck-ol6 li,
+.cke_contents .bck-ol6 li {
+	font-weight: 700;
 }
 
 
