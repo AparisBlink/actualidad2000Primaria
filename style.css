@@ -412,6 +412,10 @@
 }
 
 /* Lists */
+/*Listas en ck-editor*/
+.cke_contents ol li:before{
+	margin-left:0;
+}
 
 .texto_curso ul li,
 .workspace ul li ul li,
@@ -604,6 +608,9 @@
 }
 .bck-enfasis-2 {
 	color: #6F2670;
+}
+.bck-enfasis-3 {
+	color: #00944F;
 }
 
 
