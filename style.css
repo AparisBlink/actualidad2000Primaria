@@ -877,3 +877,6 @@ body.content_type_clase_Actualidad2000PRIM #actividad .content .fillblanks-dragg
     border-color: #999999;
     border-bottom: 5px solid #999999;
 }
+.unittag_actualidadnaturales #actividad .carousel-inner .item-container {
+	background-image: url(/useruploads/r/a/183230606/activity_other_imported/Pruebafondoslide_naturales.png);
+}
