@@ -28,8 +28,9 @@
 				{ name: 'Lista 123 rosa', element: 'ol', attributes: { 'class': 'bck-ol bck-ol4' } },
 				{ name: 'Lista abc azul claro', element: 'ol', attributes: { 'class': 'bck-ol bck-ol5' } },
 				{ name: 'Lista 123 azul', element: 'ol', attributes: { 'class': 'bck-ol bck-ol6' } },
-				{ name: 'Lista ordenada 7', element: 'ol', attributes: { 'class': 'bck-ol bck-ol7' } },
-				{ name: 'Lista ordenada 8', element: 'ol', attributes: { 'class': 'bck-ol bck-ol8' } },
+				{ name: 'Lista abc morada', element: 'ol', attributes: { 'class': 'bck-ol bck-ol7' } },
+				{ name: 'Lista 123 azul claro', element: 'ol', attributes: { 'class': 'bck-ol bck-ol8' } },
+				{ name: 'Lista abc verde', element: 'ol', attributes: { 'class': 'bck-ol bck-ol9' } },
 
 				{ name: 'Lista desordenada 1', element: 'ul', attributes: { 'class': 'bck-ul bck-ul1' } },
 				{ name: 'Lista desordenada 2', element: 'ul', attributes: { 'class': 'bck-ul bck-ul2' } },
