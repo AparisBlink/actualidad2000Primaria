@@ -12,6 +12,62 @@
 	font-family: 'Delius Swash Caps', cursive;
 	*/
 
+/*TOC*/
+#indice .units ul li {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#indice .units ul li a:not(.delete) {
+    padding: 15px 10px;
+}
+#indice .units ul li {
+    -moz-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    padding: 0px;
+    background: WHITE;
+    -moz-box-shadow: 8px 6px 8px #0000003b;
+    -webkit-box-shadow: 8px 6px 8px #0000003b;
+    box-shadow: 8px 6px 8px #0000003b;
+}
+#indice .units ul li.active:not(.disabled),
+ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
+ #indice .units ul li:focus:not(.disabled) {
+background: #960f26;
+}
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
+ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
+    color: white;
+}
+.header.default {
+	background: #960f26 !important;
+	background: -moz-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%) !important;
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(150,15,38,1)), color-stop(100%, rgba(186,30,74,1))) !important;
+	background: -webkit-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%) !important;
+	background: -o-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%) !important;
+	background: -ms-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%) !important;
+	background: linear-gradient(to right, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%) !important;
+}
+.header.default:after {
+    content: "";
+    background: url(/useruploads/r/a/182884736/activity_other_imported/logo_777475.png);
+    padding: 64px;
+    background-size: contain;
+    background-repeat: repeat-x;
+    z-index: 30;
+    background-position: center;
+    position: absolute;
+    right: 25px;
+    bottom: -15px;
+}
+
+.unit-content .btn-primary, .btn-primary.disabled,
+ .unit-content .btn-primary.disabled:hover,
+  .unit-content .btn-primary.disabled:focus {
+      background: white !important;
+  }
+
 /* General */
 
 	body.content_type_clase_Actualidad2000PRIM {
@@ -83,7 +139,7 @@
 		-webkit-box-shadow: 0px 5px 6px #00000030;
 		-moz-box-shadow: 0px 5px 6px #00000030;
 		box-shadow: 0px 5px 6px #00000030;
-		background: rgba(150,15,38,1);
+		background: #960f26;
 		background: -moz-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%);
 		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(150,15,38,1)), color-stop(100%, rgba(186,30,74,1)));
 		background: -webkit-linear-gradient(left, rgba(150,15,38,1) 0%, rgba(186,30,74,1) 100%);
@@ -1023,3 +1079,4 @@ body.content_type_clase_Actualidad2000PRIM #actividad .content .fillblanks-dragg
 .unittag_actualidadingles #actividad .carousel-inner .item-container {
 	background-image: url(/useruploads/r/a/183422966/activity_other_imported/Pruebafondoslide_ingles.png);
 }
+
