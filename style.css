@@ -947,7 +947,7 @@ body.content_type_clase_Actualidad2000PRIM #actividad .content .fillblanks-dragg
 	}
 	
 /*Cambio de color matemáticas*/
-	.unittag_actulidadmatematica.content_type_clase_Actualidad2000PRIM #actividad .content .header .title {
+	.unittag_actualidadmatematica.content_type_clase_Actualidad2000PRIM #actividad .content .header .title {
 		background: rgba(101,37,132,1);
 		background: -moz-linear-gradient(left, rgba(101,37,132,1) 0%, rgba(146,92,173,1) 100%);
 		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(101,37,132,1)), color-stop(100%, rgba(146,92,173,1)));
@@ -956,21 +956,21 @@ body.content_type_clase_Actualidad2000PRIM #actividad .content .fillblanks-dragg
 		background: -ms-linear-gradient(left, rgba(101,37,132,1) 0%, rgba(146,92,173,1) 100%);
 		background: linear-gradient(to right, rgba(101,37,132,1) 0%, rgba(146,92,173,1) 100%);
 	}
-	.unittag_actulidadmatematica.content_type_clase_Actualidad2000PRIM .slide_main input,
-	.unittag_actulidadmatematica.content_type_clase_Actualidad2000PRIM .slide_main .img-input-container {
+	.unittag_actualidadmatematica.content_type_clase_Actualidad2000PRIM .slide_main input,
+	.unittag_actualidadmatematica.content_type_clase_Actualidad2000PRIM .slide_main .img-input-container {
 		border: 3px solid #DD9A36;
 	}
-	.unittag_actulidadmatematica.content_type_clase_Actualidad2000PRIM .slide_main input:focus,
-	.unittag_actulidadmatematica.content_type_clase_Actualidad2000PRIM .slide_main .img-input-container:focus {
+	.unittag_actualidadmatematica.content_type_clase_Actualidad2000PRIM .slide_main input:focus,
+	.unittag_actualidadmatematica.content_type_clase_Actualidad2000PRIM .slide_main .img-input-container:focus {
 		border-color: #999999;
 		border-bottom: 5px solid #999999;
 	}
-	.unittag_actulidadmatematica #actividad .carousel-inner .item-container {
+	.unittag_actualidadmatematica #actividad .carousel-inner .item-container {
 		background-image: url(/useruploads/r/a/183390086/activity_other_imported/Pruebafondoslide_matematicas.png);
 	}
 
 /*Cambio de color ingles*/
-.unittag_actulidadingles.content_type_clase_Actualidad2000PRIM #actividad .content .header .title {
+.unittag_actualidadingles.content_type_clase_Actualidad2000PRIM #actividad .content .header .title {
 	background: rgba(0,93,164,1);
 	background: -moz-linear-gradient(left, rgba(0,93,164,1) 0%, rgba(40,133,199,1) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,93,164,1)), color-stop(100%, rgba(40,133,199,1)));
@@ -979,15 +979,15 @@ body.content_type_clase_Actualidad2000PRIM #actividad .content .fillblanks-dragg
 	background: -ms-linear-gradient(left, rgba(0,93,164,1) 0%, rgba(40,133,199,1) 100%);
 	background: linear-gradient(to right, rgba(0,93,164,1) 0%, rgba(40,133,199,1) 100%);
 }
-.unittag_actulidadingles.content_type_clase_Actualidad2000PRIM .slide_main input,
-.unittag_actulidadingles.content_type_clase_Actualidad2000PRIM .slide_main .img-input-container {
+.unittag_actualidadingles.content_type_clase_Actualidad2000PRIM .slide_main input,
+.unittag_actualidadingles.content_type_clase_Actualidad2000PRIM .slide_main .img-input-container {
 	border: 3px solid #005DA4;
 }
-.unittag_actulidadingles.content_type_clase_Actualidad2000PRIM .slide_main input:focus,
-.unittag_actulidadingles.content_type_clase_Actualidad2000PRIM .slide_main .img-input-container:focus {
+.unittag_actualidadingles.content_type_clase_Actualidad2000PRIM .slide_main input:focus,
+.unittag_actualidadingles.content_type_clase_Actualidad2000PRIM .slide_main .img-input-container:focus {
 	border-color: #999999;
 	border-bottom: 5px solid #999999;
 }
-.unittag_actulidadingles #actividad .carousel-inner .item-container {
+.unittag_actualidadingles #actividad .carousel-inner .item-container {
 	background-image: url(/useruploads/r/a/183390086/activity_other_imported/Pruebafondoslide_matematicas.png);
 }
