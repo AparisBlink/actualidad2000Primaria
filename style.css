@@ -67,6 +67,16 @@
 		border: none;
 		margin-bottom: 0;
 	}
+	.content_type_clase_Actualidad2000PRIM #actividad .content .header:after {
+		content: "";
+		padding: 71px;
+		background-image: url(/useruploads/r/a/182884736/activity_other_imported/logo_777475.png);
+		position: absolute;
+		top: 24px;
+		background-size: contain;
+		background-repeat: no-repeat;
+		right: 38px;
+	}
 
 	.content_type_clase_Actualidad2000PRIM #actividad .content .header .title {
 		padding: 45px 98px;
