@@ -490,9 +490,9 @@
     border: 0;
     font-size: 20px;
     line-height: 1;
-	vertical-align: sub;
+	vertical-align: baseline;
 	margin-left: -8px;
-	text-align: left;
+	text-align: right;
 }
 
 /*Lista ordenada verde*/
@@ -526,8 +526,19 @@
 .cke_contents .bck-ol4 li {
 	font-weight: 700;
 }
-
-
+/*Lista abc azul claro*/
+.content .bck-ol5 li:before,
+.cke_contents .bck-ol5 li:before {
+	content: counter(bck-li-counter, lower-alpha)".";
+    color: #00A2E3;
+    box-shadow: none;
+    border: 0;
+    font-size: 20px;
+    line-height: 1;
+	vertical-align: baseline;
+	margin-left: -8px;
+	text-align: right;
+}
 
 
 /*LISTA DESORDENADA POR DEFECTO*/
@@ -690,6 +701,7 @@
 	-moz-transition: padding 0.3s ease-in-out;
 	-webkit-transition: padding 0.3s ease-in-out;
 	transition: padding 0.3s ease-in-out;
+	padding: 10px 10px;
 }
 
 
