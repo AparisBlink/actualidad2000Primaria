@@ -643,8 +643,8 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     text-align: center;
     font-weight: 700;
 }
-.content .bck-ol6 li,
-.cke_contents .bck-ol6 li {
+.content .bck-ol8 li,
+.cke_contents .bck-ol8 li {
 	font-weight: 700;
 }
 
