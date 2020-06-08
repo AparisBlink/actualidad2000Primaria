@@ -732,7 +732,7 @@
  .content_type_clase_Actualidad2000PRIM .slide_main .img-input-container:focus {
     border-color: #999999;
     border-bottom: 5px solid #999999;
-	padding: 3px 10px;
+	padding: 15px 10px;
 	-moz-box-shadow: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -853,4 +853,27 @@ body.content_type_clase_Actualidad2000PRIM #actividad .content .fillblanks-dragg
     color: #fff;
     background-color: #428bca;
     border-color: #428bca;
+}
+
+/*SECCIONES*/
+/*Cambio de color en naturales*/
+/*HEADER*/
+/*Rellenar huecos*/
+.unittag_actualidadnaturales.content_type_clase_Actualidad2000PRIM #actividad .content .header .title {
+	background: rgba(118,156,62,1);
+	background: -moz-linear-gradient(left, rgba(118,156,62,1) 0%, rgba(141,186,74,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(118,156,62,1)), color-stop(100%, rgba(141,186,74,1)));
+	background: -webkit-linear-gradient(left, rgba(118,156,62,1) 0%, rgba(141,186,74,1) 100%);
+	background: -o-linear-gradient(left, rgba(118,156,62,1) 0%, rgba(141,186,74,1) 100%);
+	background: -ms-linear-gradient(left, rgba(118,156,62,1) 0%, rgba(141,186,74,1) 100%);
+	background: linear-gradient(to right, rgba(118,156,62,1) 0%, rgba(141,186,74,1) 100%);
+}
+.unittag_actualidadnaturales.content_type_clase_Actualidad2000PRIM .slide_main input,
+.unittag_actualidadnaturales.content_type_clase_Actualidad2000PRIM .slide_main .img-input-container {
+	border: 3px solid #769C3E;
+}
+.unittag_actualidadnaturales.content_type_clase_Actualidad2000PRIM .slide_main input:focus,
+.unittag_actualidadnaturales.content_type_clase_Actualidad2000PRIM .slide_main .img-input-container:focus {
+    border-color: #999999;
+    border-bottom: 5px solid #999999;
 }
