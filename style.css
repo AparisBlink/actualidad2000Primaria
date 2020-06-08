@@ -984,6 +984,28 @@ body.content_type_clase_Actualidad2000PRIM #actividad .content .fillblanks-dragg
     background-color: #428bca;
     border-color: #428bca;
 }
+.btn-solution, .btn-solution.disabled,
+ .btn-solution[disabled], .btn-next, .btn-next.disabled,
+  .btn-next[disabled] {
+    color: #00bdff;
+    background-color: white;
+	border-color: #00bdff;
+	border: 2px solid #00bdff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+	font-weight: 700;
+}
+.btn-solution:hover,
+ .btn-solution:focus,
+  .btn-solution:active,
+   .btn-next:hover, .btn-next:focus,
+	.btn-next:active,
+	 .open .dropdown-toggle.btn-solution {
+    color: #fff;
+    background-color: #00bdff;
+    border-color: transparent;
+}
 
 /*SECCIONES*/
 	/*Cambio de color en naturales*/
