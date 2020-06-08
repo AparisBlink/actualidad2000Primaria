@@ -414,7 +414,7 @@
 /* Lists */
 /*Listas en ck-editor*/
 .cke_contents ol li:before{
-	margin-left:0;
+	margin-left:0 !important;
 }
 
 .texto_curso ul li,
