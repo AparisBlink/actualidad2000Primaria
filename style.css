@@ -505,7 +505,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 	margin-bottom: 16px;
 	counter-increment: bck-li-counter;
 	position: relative;
-	line-height: 1.1rem;
+	line-height: inherit;
 }
 
 .content .bck-ol1 li,
@@ -1158,3 +1158,18 @@ background: #005DA4;
 	background: linear-gradient(to right, rgba(0,93,164,1) 0%, rgba(40,133,199,1) 100%) !important;
 }
 
+/*QUERIES*/
+/* Smartphones (portrait & landscape) */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	.content_type_clase_Actualidad2000PRIM #actividad .content .header:after {
+	display: none;
+	}
+	.content_type_clase_Actualidad2000PRIM #actividad .content .header .title {
+		padding: 36px 10px 36px 10px;
+	}
+	#actividad .carousel-inner .item-container {
+		padding-bottom: 67px;
+	}
+}
