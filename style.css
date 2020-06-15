@@ -723,7 +723,10 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
     padding: 6px 15px;
     text-align: center;
     background: #960f261c;
-    border: 2px solid #960f26;
+	border: 2px solid #960f26;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
 }
 
 /* Caja 3 */
