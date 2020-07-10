@@ -889,6 +889,19 @@
     background: #ffffff;
     }
 
+    .content .workspace.calculo table:not(.rf-tablegrid) td,
+    .content .workspace.calculo table:not(.rf-tablegrid) th {
+     border: 0;
+    padding: 10px;
+    background: none;
+    }
+
+    .content .workspace.calculo table:not(.rf-tablegrid) {
+        border: 0;
+        margin-bottom: 10px;
+    }
+
+
     .content table:not(.rf-tablegrid) {
     border: 1px solid #F37731;
     margin-bottom: 20px;
