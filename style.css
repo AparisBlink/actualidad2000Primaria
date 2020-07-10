@@ -65,7 +65,7 @@
     }
     .header.default:after {
     content: "";
-    background: url(/images/Logo_Actualidad_2000.png);
+    background: url(images/Logo_Actualidad_2000.png);
     padding: 64px;
     background-size: contain;
     background-repeat: repeat-x;
@@ -112,7 +112,7 @@
         padding: 0px;
         padding-bottom: 90px;
         position: relative;
-        background-image: url(/images/BG_Slides_Actualidad2000.jpg);
+        background-image: url(images/BG_Slides_Actualidad2000.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         background-position-y: bottom;
@@ -141,7 +141,7 @@
     .content_type_clase_Actualidad2000PRIM #actividad .content .header:after {
         content: "";
         padding: 71px;
-        background-image: url(/images/Logo_Actualidad_2000.png);
+        background-image: url(images/Logo_Actualidad_2000.png);
         position: absolute;
         top: 24px;
         background-size: contain;
