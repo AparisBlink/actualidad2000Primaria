@@ -411,11 +411,14 @@
 
     /*TITULO 1*/
     .bck-title1 {
-    position: relative;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
     box-shadow: none;
     font-family: 'Work Sans', sans-serif;
     color: #009DB2;
     border: 0;
+    -webkit-text-shadow: none;
+    -moz-text-shadow: none;
     text-shadow: none;
     font-weight: 700;
     font-size: 25px;
@@ -527,6 +530,8 @@
     .cke_contents .bck-ol2 li:before {
     content: counter(bck-li-counter, lower-alpha)".";
     color: #005592;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
     box-shadow: none;
     border: 0;
     font-size: 20px;
@@ -540,6 +545,8 @@
     /*Lista ordenada verde*/
     .content .bck-ol3 li:before,
     .cke_contents .bck-ol3 li:before {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
     box-shadow: none;
     color: #00944F;
     font-size: 22px;
@@ -574,6 +581,8 @@
     .cke_contents .bck-ol5 li:before {
     content: counter(bck-li-counter, lower-alpha)".";
     color: #00A2E3;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
     box-shadow: none;
     border: 0;
     font-size: 20px;
@@ -606,6 +615,8 @@
     .cke_contents .bck-ol7 li:before {
     content: counter(bck-li-counter, lower-alpha)".";
     color: #652584;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
     box-shadow: none;
     border: 0;
     font-size: 20px;
@@ -638,6 +649,8 @@
     .cke_contents .bck-ol9 li:before {
     content: counter(bck-li-counter, lower-alpha)".";
     color: #00A651;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
     box-shadow: none;
     border: 0;
     font-size: 20px;
@@ -1063,7 +1076,11 @@
     width: auto;
     display: block;
     vertical-align: top;
+    -webkit-box-shadow: 3px 3px 7px 0px #00000030;
+    -moz-box-shadow: 3px 3px 7px 0px #00000030;
     box-shadow: 3px 3px 7px 0px #00000030;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
     border-radius: 9px;
     margin: 20px 0;
     -moz-transition: background 0.3s ease-in-out;
