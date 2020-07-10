@@ -896,7 +896,7 @@
 
     /*Celda 1*/
     .bck-td-1 {
-        background-color: #960f26;
+        background: #960f26;
         color: white;
     }
 
@@ -1294,7 +1294,7 @@
 
     /*Celda 1*/
     .coursetag_actualidadnaturales .bck-td-1 {
-         background-color: #769C3E;
+         background: #769C3E;
          color: white;
     }
 
@@ -1421,7 +1421,7 @@
 
     /*Celda 1*/
     .coursetag_actualidadsociales .bck-td-1 {
-        background-color: #DD9A36;
+        background: #DD9A36;
         color: white;
    }    
 
@@ -1544,7 +1544,7 @@
     }
     /*Celda 1*/
     .coursetag_actualidadmatematica .bck-td-1 {
-        background-color: #652584;
+        background: #652584;
         color: white;
    }    
     .coursetag_actualidadmatematica #actividad .player.audio,
@@ -1667,7 +1667,7 @@
     }
      /*Celda 1*/
      .coursetag_actualidadingles .bck-td-1 {
-        background-color: #005DA4;
+        background: #005DA4;
         color: white;
    }     
 
