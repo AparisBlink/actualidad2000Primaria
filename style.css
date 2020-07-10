@@ -1,16 +1,28 @@
 /* Fonts */
 
-/*Work Sans*/
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800&display=swap');
-/*CSS: 
-font-family: 'Work Sans', sans-serif;
-*/
+@font-face {
+	font-family: 'Work Sans';
+	src: url('fonts/WorkSans-Regular.eot');
+	src: local('☺'), url('fonts/WorkSans-Regular.woff') format('woff'), url('fonts/WorkSans-Regular.ttf') format('truetype'), url('fonts/WorkSans-Regular.svg') format('svg');
+	font-weight: 400, normal;
+    font-style: normal;
+}
 
-/*Delius Swash Cap*/
-@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
-/*CSS: 
-font-family: 'Delius Swash Caps', cursive;
-*/
+@font-face {
+	font-family: 'Work Sans';
+	src: url('fonts/WorkSans-Bold.eot');
+	src: local('☺'), url('fonts/WorkSans-Bold.woff') format('woff'), url('fonts/WorkSans-Bold.ttf') format('truetype'), url('fonts/WorkSans-Bold.svg') format('svg');
+	font-weight: 700, bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Work Sans';
+	src: url('fonts/WorkSans-ExtraBold.eot');
+	src: local('☺'), url('fonts/WorkSans-ExtraBold.woff') format('woff'), url('fonts/WorkSans-ExtraBold.ttf') format('truetype'), url('fonts/WorkSans-ExtraBold.svg') format('svg');
+	font-weight: 800;
+	font-style: normal;
+}
 
 /*-------------------------------*/
 /* ------------- TOC ----------- */
@@ -53,7 +65,7 @@ font-family: 'Delius Swash Caps', cursive;
     }
     .header.default:after {
     content: "";
-    background: url(/useruploads/r/a/182884736/activity_other_imported/logo_777475.png);
+    background: url(/images/Logo_Actualidad_2000.png);
     padding: 64px;
     background-size: contain;
     background-repeat: repeat-x;
@@ -100,7 +112,7 @@ font-family: 'Delius Swash Caps', cursive;
         padding: 0px;
         padding-bottom: 90px;
         position: relative;
-        background-image: url(/useruploads/r/a/187864356/activity_other_imported/BG_Slides_Actualidad2000.jpg);
+        background-image: url(/images/BG_Slides_Actualidad2000.jpg);
         background-size: contain;
         background-repeat: no-repeat;
         background-position-y: bottom;
@@ -129,7 +141,7 @@ font-family: 'Delius Swash Caps', cursive;
     .content_type_clase_Actualidad2000PRIM #actividad .content .header:after {
         content: "";
         padding: 71px;
-        background-image: url(/useruploads/r/a/182884736/activity_other_imported/logo_777475.png);
+        background-image: url(/images/Logo_Actualidad_2000.png);
         position: absolute;
         top: 24px;
         background-size: contain;
@@ -285,31 +297,10 @@ font-family: 'Delius Swash Caps', cursive;
         padding-right: 100px;
     }
 
-    .logo-publisher {
-        display: inline-block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100px;
-        height: 44px;
-        background: url(logo-pearson.png) 0 0 no-repeat;
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-            -o-background-size: contain;
-                background-size: contain;
-        background-position: center center;
-
-    }
-
     @media only screen and (max-width: 640px) {
         .navbar-bottom {
             padding-left: 40px;
             padding-right: 40px;
-        }
-
-        .logo-publisher {
-            width: 40px;
-            background-image: url(Pearson-logo-2016-219x286.png);
         }
     }
 
@@ -893,8 +884,28 @@ font-family: 'Delius Swash Caps', cursive;
     }
 
     /* Icons */
-    #actividad .player.audio {
-    background: url(images/Icon_audio.png) center center / cover;
+
+    #actividad .player.audio,
+     #actividad .player.video,
+      #help-panel-content .player,
+       #remote-alert-modal-rich .player {
+        height: 28px !important;
+        width: 28px;
+        display: inline-block;
+        background-color: #960F26;
+        background-image: url(../../../images/shared/multimedia-icons.png);
+        background-repeat: no-repeat;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        border-radius: 100%;
+        margin: 0 5px;
+        vertical-align: bottom;
+    }
+
+    #actividad .player:hover,
+     #help-panel-content .player:hover,
+      #remote-alert-modal-rich .player:hover {
+        background-color: #ed1d41;
     }
 
     .item-container .icon:before {
@@ -1152,9 +1163,7 @@ font-family: 'Delius Swash Caps', cursive;
         border-color: #999999;
         border-bottom: 5px solid #999999;
     }
-    .coursetag_actualidadnaturales #actividad .carousel-inner .item-container {
-        background-image: url(/useruploads/r/a/187864356/activity_other_imported/BG_Slides_Actualidad2000.jpg);
-    }
+
     .coursetag_actualidadnaturales #indice .units ul li.active:not(.disabled),
     body:not(.isTablet).coursetag_actualidadnaturales #indice .units ul li:hover:not(.disabled),
     .coursetag_actualidadnaturales #indice .units ul li:focus:not(.disabled) {
@@ -1237,9 +1246,22 @@ font-family: 'Delius Swash Caps', cursive;
     .coursetag_actualidadnaturales .info-template .info-title {
         color: #769C3E;
     }
-    .coursetag_actualidadnaturales .info-template .info-icon {
+    .coursetag_actualidadnaturales.info-template .info-icon {
         background: #769C3E;
     }
+
+    .coursetag_actualidadnaturales #actividad .player.audio,
+    .coursetag_actualidadnaturales #actividad .player.video,
+    .coursetag_actualidadnaturales #help-panel-content .player,
+    .coursetag_actualidadnaturales #remote-alert-modal-rich .player {
+       background-color: #769C3E;
+   }
+
+   .coursetag_actualidadnaturales #actividad .player:hover,
+   .coursetag_actualidadnaturales #help-panel-content .player:hover,
+   .coursetag_actualidadnaturales #remote-alert-modal-rich .player:hover {
+       background-color: #aad46d;
+   }
 
 /******/
 
@@ -1262,9 +1284,7 @@ font-family: 'Delius Swash Caps', cursive;
         border-color: #999999;
         border-bottom: 5px solid #999999;
     }
-    .coursetag_actualidadsociales #actividad .carousel-inner .item-container {
-        background-image: url(/useruploads/r/a/187864356/activity_other_imported/BG_Slides_Actualidad2000.jpg);
-    }
+
     .coursetag_actualidadsociales #indice .units ul li.active:not(.disabled),
     body:not(.isTablet).coursetag_actualidadsociales #indice .units ul li:hover:not(.disabled),
     .coursetag_actualidadsociales #indice .units ul li:focus:not(.disabled) {
@@ -1350,6 +1370,18 @@ font-family: 'Delius Swash Caps', cursive;
     .coursetag_actualidadsociales .info-template .info-icon {
         background: #DD9A36;
     }
+
+    .coursetag_actualidadsociales #actividad .player.audio,
+    .coursetag_actualidadsociales #actividad .player.video,
+    .coursetag_actualidadsociales #help-panel-content .player,
+    .coursetag_actualidadsociales #remote-alert-modal-rich .player {
+       background-color: #DD9A36;
+   }
+   .coursetag_actualidadsociales #actividad .player:hover,
+   .coursetag_actualidadsociales #help-panel-content .player:hover,
+   .coursetag_actualidadsociales #remote-alert-modal-rich .player:hover {
+       background-color: #f7ac3d;
+   }
 /****/
 
 /*Cambio de color matemáticas*/
@@ -1371,9 +1403,7 @@ font-family: 'Delius Swash Caps', cursive;
         border-color: #999999;
         border-bottom: 5px solid #999999;
     }
-    .coursetag_actualidadmatematica #actividad .carousel-inner .item-container {
-        background-image: url(/useruploads/r/a/187864356/activity_other_imported/BG_Slides_Actualidad2000.jpg);
-    }
+
     .coursetag_actualidadmatematica #indice .units ul li.active:not(.disabled),
     body:not(.isTablet).coursetag_actualidadmatematica #indice .units ul li:hover:not(.disabled),
     .coursetag_actualidadmatematica #indice .units ul li:focus:not(.disabled) {
@@ -1442,7 +1472,6 @@ font-family: 'Delius Swash Caps', cursive;
         background-color: #652584;
     }
 
-
     .coursetag_actualidadmatematica #actividad .info-button {
         background: #652584;
     }
@@ -1459,6 +1488,17 @@ font-family: 'Delius Swash Caps', cursive;
     .coursetag_actualidadmatematica .info-template .info-icon {
         background: #652584;
     }
+    .coursetag_actualidadmatematica #actividad .player.audio,
+    .coursetag_actualidadmatematica #actividad .player.video,
+    .coursetag_actualidadmatematica #help-panel-content .player,
+    .coursetag_actualidadmatematica #remote-alert-modal-rich .player {
+       background-color: #652584;
+   }
+   .coursetag_actualidadmatematica #actividad .player:hover,
+   .coursetag_actualidadmatematica #help-panel-content .player:hover,
+   .coursetag_actualidadmatematica #remote-alert-modal-rich .player:hover {
+       background-color: #9d4ac5;
+   }
 /*****/
 
 /*Cambio de color ingles*/
@@ -1480,9 +1520,7 @@ font-family: 'Delius Swash Caps', cursive;
     border-color: #999999;
     border-bottom: 5px solid #999999;
     }
-    .coursetag_actualidadingles #actividad .carousel-inner .item-container {
-    background-image: url(/useruploads/r/a/187864356/activity_other_imported/BG_Slides_Actualidad2000.jpg);
-    }
+
     .coursetag_actualidadingles #indice .units ul li.active:not(.disabled),
     body:not(.isTablet).coursetag_actualidadingles #indice .units ul li:hover:not(.disabled),
     .coursetag_actualidadingles #indice .units ul li:focus:not(.disabled) {
@@ -1568,6 +1606,18 @@ font-family: 'Delius Swash Caps', cursive;
     .coursetag_actualidadingles .info-template .info-icon {
         background: #005DA4;
     }
+
+    .coursetag_actualidadingles #actividad .player.audio,
+    .coursetag_actualidadingles #actividad .player.video,
+    .coursetag_actualidadingles #help-panel-content .player,
+    .coursetag_actualidadingles #remote-alert-modal-rich .player {
+       background-color: #005DA4;
+   }
+   .coursetag_actualidadingles #actividad .player:hover,
+   .coursetag_actualidadingles #help-panel-content .player:hover,
+   .coursetag_actualidadingles #remote-alert-modal-rich .player:hover {
+       background-color: #3f93d4;
+   }
 
 /**/
 
