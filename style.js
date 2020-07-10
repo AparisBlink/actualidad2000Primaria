@@ -16,11 +16,6 @@
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
 				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title bck-title2'} },
-				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title bck-title3'} },
-				{ name: 'Título 4', element: 'h4', attributes: { 'class': 'bck-title bck-title4'} },
-				{ name: 'Título 5', element: 'h4', attributes: { 'class': 'bck-title bck-title5'} },
-				{ name: 'Título 6', element: 'h4', attributes: { 'class': 'bck-title bck-title5'} },
-				{ name: 'Título 7', element: 'h4', attributes: { 'class': 'bck-title bck-title5'} },
 
 				{ name: 'Lista 123 granate', element: 'ol', attributes: { 'class': 'bck-ol bck-ol1' } },
 				{ name: 'Lista abc azul oscuro', element: 'ol', attributes: { 'class': 'bck-ol bck-ol2' } },
@@ -32,38 +27,21 @@
 				{ name: 'Lista 123 azul claro', element: 'ol', attributes: { 'class': 'bck-ol bck-ol8' } },
 				{ name: 'Lista abc verde', element: 'ol', attributes: { 'class': 'bck-ol bck-ol9' } },
 
-				{ name: 'Lista desordenada 1', element: 'ul', attributes: { 'class': 'bck-ul bck-ul1' } },
-				{ name: 'Lista desordenada 2', element: 'ul', attributes: { 'class': 'bck-ul bck-ul2' } },
-				{ name: 'Lista desordenada 3', element: 'ul', attributes: { 'class': 'bck-ul bck-ul3' } },
-				{ name: 'Lista desordenada 4', element: 'ul', attributes: { 'class': 'bck-ul bck-ul4' } },
-				{ name: 'Lista desordenada 5', element: 'ul', attributes: { 'class': 'bck-ul bck-ul5' } },
-				{ name: 'Lista desordenada 6', element: 'ul', attributes: { 'class': 'bck-ul bck-ul6' } },
-				{ name: 'Lista desordenada 7', element: 'ul', attributes: { 'class': 'bck-ul bck-ul7' } },
-				{ name: 'Lista desordenada 8', element: 'ul', attributes: { 'class': 'bck-ul bck-ul8' } },
+				{ name: 'Lista desordenada color', element: 'ul', attributes: { 'class': 'bck-ul bck-ul1' } },
+				{ name: 'Lista desordenada blanca', element: 'ul', attributes: { 'class': 'bck-ul bck-ul2' } },
+
 
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box1' } },
 				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box2' } },
 				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box3' } },
-				{ name: 'Caja 4', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box4' } },
-				{ name: 'Caja 5', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box5' } },
-				{ name: 'Caja 6', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box6' } },
-				{ name: 'Caja 7', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box7' } },
-				{ name: 'Caja 8', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box8' } },
 
 				{ name: 'Énfasis naranja', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'Énfasis morado', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
 				{ name: 'Énfasis verde', element: 'span', attributes: { 'class': 'bck-enfasis-3'} },
 				{ name: 'Énfasis azul', element: 'span', attributes: { 'class': 'bck-enfasis-4'} },
 				{ name: 'Énfasis rosa', element: 'span', attributes: { 'class': 'bck-enfasis-5'} },
-				{ name: 'Énfasis 6', element: 'span', attributes: { 'class': 'bck-enfasis-6'} },
-				{ name: 'Énfasis 7', element: 'span', attributes: { 'class': 'bck-enfasis-7'} },
-				{ name: 'Énfasis 8', element: 'span', attributes: { 'class': 'bck-enfasis-8'} },
-
-				{ name: 'Icono Draw', element: 'span', attributes: { 'class': 'icon icon-draw' } },
-				{ name: 'Icono Write', element: 'span', attributes: { 'class': 'icon icon-write' } },
-				{ name: 'Icono Speaking', element: 'span', attributes: { 'class': 'icon icon-speaking' } },
-				{ name: 'Icono Reading', element: 'span', attributes: { 'class': 'icon icon-reading' } },
-				{ name: 'Icono Star', element: 'span', attributes: { 'class': 'icon icon-star' } }
+                
+				{ name: 'Celda encabezado', element: 'td', attributes: { 'class': 'bck-td-1' } }
 			]
 		},
 
