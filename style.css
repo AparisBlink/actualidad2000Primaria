@@ -900,6 +900,7 @@
         border-radius: 100%;
         margin: 0 5px;
         vertical-align: bottom;
+        background-position: -29px -1px;
     }
 
     #actividad .player:hover,
