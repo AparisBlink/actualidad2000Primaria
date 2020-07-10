@@ -889,22 +889,15 @@
     background: #ffffff;
     }
 
-    .content .workspace.calculo table:not(.rf-tablegrid) td,
-    .content .workspace.calculo table:not(.rf-tablegrid) th {
-     border: 0;
-    padding: 10px;
-    background: none;
-    }
-
-    .content .workspace.calculo table:not(.rf-tablegrid) {
-        border: 0;
-        margin-bottom: 10px;
-    }
-
-
     .content table:not(.rf-tablegrid) {
     border: 1px solid #F37731;
     margin-bottom: 20px;
+    }
+
+    /*Celda 1*/
+    .bck-td-1 {
+        background-color: #960f26;
+        color: white;
     }
 
     /*Links*/
@@ -1173,6 +1166,21 @@
     background-color: #00bdff;
     border-color: transparent;
     }
+
+    /*Plantilla cáculo*/
+    
+    .content .workspace.calculo table:not(.rf-tablegrid) td,
+    .content .workspace.calculo table:not(.rf-tablegrid) th {
+     border: 0;
+    padding: 10px;
+    background: none;
+    }
+
+    .content .workspace.calculo table:not(.rf-tablegrid) {
+        border: 0;
+        margin-bottom: 10px;
+    }
+    
 /**/
 /*--------------------------------*/
 /* ----------- SECCIONES ------------*/
@@ -1282,6 +1290,12 @@
     }
     .coursetag_actualidadnaturales.info-template .info-icon {
         background: #769C3E;
+    }
+
+    /*Celda 1*/
+    .coursetag_actualidadnaturales .bck-td-1 {
+         background-color: #769C3E;
+         color: white;
     }
 
     .coursetag_actualidadnaturales #actividad .player.audio,
@@ -1405,6 +1419,12 @@
         background: #DD9A36;
     }
 
+    /*Celda 1*/
+    .coursetag_actualidadsociales .bck-td-1 {
+        background-color: #DD9A36;
+        color: white;
+   }    
+
     .coursetag_actualidadsociales #actividad .player.audio,
     .coursetag_actualidadsociales #actividad .player.video,
     .coursetag_actualidadsociales #help-panel-content .player,
@@ -1522,6 +1542,11 @@
     .coursetag_actualidadmatematica .info-template .info-icon {
         background: #652584;
     }
+    /*Celda 1*/
+    .coursetag_actualidadmatematica .bck-td-1 {
+        background-color: #652584;
+        color: white;
+   }    
     .coursetag_actualidadmatematica #actividad .player.audio,
     .coursetag_actualidadmatematica #actividad .player.video,
     .coursetag_actualidadmatematica #help-panel-content .player,
@@ -1640,6 +1665,11 @@
     .coursetag_actualidadingles .info-template .info-icon {
         background: #005DA4;
     }
+     /*Celda 1*/
+     .coursetag_actualidadingles .bck-td-1 {
+        background-color: #005DA4;
+        color: white;
+   }     
 
     .coursetag_actualidadingles #actividad .player.audio,
     .coursetag_actualidadingles #actividad .player.video,
