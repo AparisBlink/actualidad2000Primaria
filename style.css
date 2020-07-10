@@ -1293,7 +1293,7 @@
     }
 
     /*Celda 1*/
-    .coursetag_actualidadnaturales body .content table:not(.rf-tablegrid) .bck-td-1 {
+    body.coursetag_actualidadnaturales .content table:not(.rf-tablegrid) .bck-td-1 {
          background: #769C3E;
          color: white;
     }
@@ -1420,7 +1420,7 @@
     }
 
     /*Celda 1*/
-    .coursetag_actualidadsociales body .content table:not(.rf-tablegrid) .bck-td-1 {
+    body.coursetag_actualidadsociales .content table:not(.rf-tablegrid) .bck-td-1 {
         background: #DD9A36;
         color: white;
    }    
@@ -1543,7 +1543,7 @@
         background: #652584;
     }
     /*Celda 1*/
-    .coursetag_actualidadmatematica body .content table:not(.rf-tablegrid) .bck-td-1 {
+    body.coursetag_actualidadmatematica .content table:not(.rf-tablegrid) .bck-td-1 {
         background: #652584;
         color: white;
    }    
@@ -1666,7 +1666,7 @@
         background: #005DA4;
     }
      /*Celda 1*/
-     .coursetag_actualidadingles body .content table:not(.rf-tablegrid) .bck-td-1 {
+     body.coursetag_actualidadingles .content table:not(.rf-tablegrid) .bck-td-1 {
         background: #005DA4;
         color: white;
    }     
